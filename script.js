@@ -1,6 +1,7 @@
 function diamond(n){
     let diamond = ''
     let spaces = (n-1)/2
+   
     if(n === 1) {return diamond}
     for(let i = 1; i < n; i++){
      diamond +=  '*'.repeat(i) + '\n'
@@ -11,4 +12,4 @@ function diamond(n){
 return diamond
   }
 
-  console.log(diamond(5))
+  console.log(diamond(5))     
